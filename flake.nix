@@ -28,7 +28,7 @@
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-              home-manager.users.nixos = import ./home.nix; # Change 'nixos' to your username
+              home-manager.users.daniel = import ./home.nix; # Change 'nixos' to your username
             }
           ];
         };
