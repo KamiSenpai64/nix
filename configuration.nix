@@ -36,7 +36,7 @@
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   
   # Set your time zone.
-  time.timeZone = "America/New_York"; # Change to your timezone
+  time.timeZone = "Europe/Bucharest"; # Change to your timezone
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
