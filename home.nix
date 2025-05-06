@@ -3,8 +3,8 @@
 {
   # Home Manager needs a bit of information about you and the
   # paths it should manage.
-  home.username = "nixos"; # Change to your username
-  home.homeDirectory = "/home/nixos"; # Change to your home directory
+  home.username = "daniel"; # Change to your username
+  home.homeDirectory = "/home"; # Change to your home directory
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
@@ -22,9 +22,6 @@
     tmux # Terminal multiplexer
     jq # JSON processor
     
-    # Development
-    vscode # Code editor
-    
     # Communication
     discord
   ];
@@ -32,8 +29,8 @@
   # Configure Git
   programs.git = {
     enable = true;
-    userName = "Your Name"; # Change this
-    userEmail = "your.email@example.com"; # Change this
+    userName = "KamiSenpai64"; # Change this
+    userEmail = "miuletdaniel@gmail.com"; # Change this
     extraConfig = {
       init.defaultBranch = "main";
       pull.rebase = false;
@@ -116,7 +113,7 @@
       
       bars = [
         {
-          position = "bottom";
+          position = "top";
           statusCommand = "i3status";
           fonts = {
             names = [ "JetBrainsMono Nerd Font" ];
