@@ -96,7 +96,7 @@
   };
 
   # User account
-  users.users.nixos = {  # Change to your username
+  users.users.daniel = {  # Change to your username
     isNormalUser = true;
     description = "NixOS User";  # Change to your description
     extraGroups = [ "networkmanager" "wheel" "video" "audio" ];
